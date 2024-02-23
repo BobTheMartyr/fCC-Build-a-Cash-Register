@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Cash Register</title>
+    <link rel='stylesheet' href='styles.css' />
+  </head>
+  <body>
+    <div id='container'>
+      <div id='price-container'>
+        <div id='price-left'>
+        </div>
+        <div id='price-right'>
+          <form id='cash-form'>
+            <label for='cash'></label>
+            <input id='cash' type='number' name='cash' placeholder='Enter payment amount'>
+            <button form='cash-form' id='purchase-btn'>Purchase</button>
+          </form>
+        </div>
+      </div>
+      <div id='register-container'>
+        <div id='register-left'>
+          <div id='change-title'></div>
+          <div id='change-in-drawer'></div>
+        </div>
+        <div id='register-right'>
+          <div id='status-title'>Register Status: </div>
+          <div id='change-dude'></div>
+        </div>
+      </div>
+    </div>
+    <div id='change-due'></div>
+
+    <script src='script.js'></script>
+  </body>
+</html>
